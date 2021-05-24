@@ -225,4 +225,13 @@
         versa. According to Google Map, it takes 4,492 hours or 187 days of non-stop walking to get
         there.\n\n
     </string>
+    <string name="about_us_appTitle">OOPsies\nMeasurement\nProject</string>
+    <string name="about_us_textView0">A group of student\'s attempt on creating an app</string>
+    <string name="about_us_textView2">Our Team</string>
+    <string name="about_us_textView3">Daryl Kardil Kelabit</string>
+    <string name="about_us_textView4">Adrian Lau Hui Yi</string>
+    <string name="about_us_textView5">Abdullah Al-Hisyam</string>
+    <string name="about_us">About Us</string>
+    <string name="feedback">Feedback</string>
+    <string name="source_code">Source Code</string>
 </resources>
