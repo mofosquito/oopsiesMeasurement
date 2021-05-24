@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000019"
+    tools:context=".heat_temp">
+
+    <TextView
+        android:id="@+id/heat_temp_title"
+        style="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#000000"
+        android:gravity="center"
+        android:text="@string/heat_temp_title"
+        android:textColor="@color/white"
+        android:textSize="30sp" />
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/heat_temp_title">
+
+        <TextView
+            android:id="@+id/heat_temp_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/heat_temp_title"
+            android:padding="10dp"
+            android:text="@string/heat_temp_content"
+            android:textColor="#FFFFFF" />
+    </ScrollView>
+
+</RelativeLayout>
