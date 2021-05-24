@@ -27,7 +27,14 @@ public class feedback extends AppCompatActivity {
     private class Callback extends WebViewClient {
         @Override
         public boolean shouldOverrideKeyEvent(WebView view, KeyEvent event) {
-            return false;
+            return super.shouldOverrideKeyEvent(view, event);
+        }
+    }
+
+    public static class Callback1 extends WebViewClient {
+        @Override
+        public boolean shouldOverrideKeyEvent(WebView view, KeyEvent event) {
+            return super.shouldOverrideKeyEvent(view, event);
         }
     }
 }

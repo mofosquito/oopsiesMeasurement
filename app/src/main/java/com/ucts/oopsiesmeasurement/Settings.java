@@ -37,5 +37,13 @@ public class Settings extends AppCompatActivity {
             }
         });
 
+        button2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent int3 = new Intent(Settings.this, source_code.class);
+                startActivity(int3);
+            }
+        });
+
     }
 }
