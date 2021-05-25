@@ -234,4 +234,5 @@
     <string name="about_us">About Us</string>
     <string name="feedback">Feedback</string>
     <string name="source_code">Source Code</string>
+    <string name="textView1">We would like to hear your valuable suggestions. Please fill in the feedback form in the settings page.</string>
 </resources>
