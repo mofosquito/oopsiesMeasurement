@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#000019"
+    android:background="@drawable/background"
     tools:context=".estimating_quantities">
 
     <TextView
@@ -29,7 +29,12 @@
             android:layout_height="wrap_content"
             android:layout_below="@id/estimating_quantities_title"
             android:padding="10dp"
+            android:shadowColor="#000000"
+            android:shadowDx="1"
+            android:shadowDy="1"
+            android:shadowRadius="10"
             android:text="@string/estimating_quantities_content"
-            android:textColor="#FFFFFF" />
+            android:textColor="#FFFFFF"
+            android:textSize="16sp" />
     </ScrollView>
 </RelativeLayout>
