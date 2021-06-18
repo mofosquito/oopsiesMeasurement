@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".heat_temp_page1">
+
+    <TextView
+        android:id="@+id/heat_temp_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#123456"
+        android:gravity="center"
+        android:text="@string/heat_temp_title"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/heat_temp_secondary_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/heat_temp_title"
+        android:text="@string/heat_temp_secondary_title"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/temperature_definition"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/heat_temp_secondary_title"
+        android:gravity="center"
+        android:text="@string/heat_temp_definition"
+        android:textColor="#000000" />
+
+    <ImageView
+        android:id="@+id/image_thermometer"
+        android:layout_width="300dp"
+        android:layout_height="150dp"
+        android:layout_below="@+id/temperature_definition"
+        android:layout_centerInParent="true"
+        android:background="@drawable/thermometer" />
+
+    <TextView
+        android:id="@+id/text_thermometer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/image_thermometer"
+        android:gravity="center"
+        android:text="@string/image_thermometer"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/text_explanation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text_thermometer"
+        android:gravity="center"
+        android:text="@string/text_temperature_explanation"
+        android:textColor="#000000" />
+
+    <Button
+        android:id="@+id/buttonNext"
+        android:layout_width="70dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/text_explanation"
+        android:layout_centerInParent="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/button_style1"
+        android:text="@string/buttonNext"
+        android:textColor="#FFFFFF"
+        android:textSize="12sp" />
+
+    <Button
+        android:id="@+id/buttonBack"
+        android:layout_width="70dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/text_explanation"
+        android:layout_alignStart="@+id/buttonNext"
+        android:layout_marginStart="-130dp"
+        android:layout_marginTop="26dp"
+        android:background="@drawable/button_style1"
+        android:text="@string/buttonBack"
+        android:textColor="#FFFFFF"
+        android:textSize="12sp" />
+
+    <Button
+        android:id="@+id/buttonHome"
+        android:layout_width="70dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/text_explanation"
+        android:layout_alignEnd="@+id/buttonNext"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="130dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="38dp"
+        android:background="@drawable/button_style1"
+        android:text="@string/buttonHome"
+        android:textColor="#FFFFFF"
+        android:textSize="12sp" />
+</RelativeLayout>

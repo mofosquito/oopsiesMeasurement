@@ -26,7 +26,7 @@ public class Educational extends AppCompatActivity {
         button3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent int1 = new Intent(Educational.this, phenomena_illusions.class);
+                Intent int1 = new Intent(Educational.this, phenomena_illusions_page1.class);
                 startActivity(int1);
             }
         });
@@ -34,7 +34,7 @@ public class Educational extends AppCompatActivity {
         button4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent int2 = new Intent(Educational.this, length_mass_time.class);
+                Intent int2 = new Intent(Educational.this, length_mass_time_page1.class);
                 startActivity(int2);
             }
         });
@@ -42,7 +42,7 @@ public class Educational extends AppCompatActivity {
         button5.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent int3 = new Intent(Educational.this, estimating_quantities.class);
+                Intent int3 = new Intent(Educational.this, estimating_quantities_page1.class);
                 startActivity(int3);
             }
         });
@@ -50,7 +50,7 @@ public class Educational extends AppCompatActivity {
         button6.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent int4 = new Intent(Educational.this, heat_temp.class);
+                Intent int4 = new Intent(Educational.this, heat_temp_page1.class);
                 startActivity(int4);
             }
         });

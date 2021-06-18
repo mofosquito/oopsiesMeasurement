@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".fun_facts_page1">
+
+    <TextView
+        android:id="@+id/fun_fact_title"
+        android:textStyle="italic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#123456"
+        android:gravity="center"
+        android:text="Fun Facts"
+        android:textColor="@color/white"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/ff5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:textSize="15sp"
+        android:layout_below="@+id/fun_fact_title"
+        android:text="\n\nFun Fact 5:\nHeart beat has an average of 80 beats per minute, that is 4,800 times per hour and 115,200 times per day. Assume you live to be 80 years old, your heart would have beaten approximately 3,363,840,000 times. Every beat pumps around 70 ml of blood, that means 5.6 litres per minute, 336 litres per hour, 8064 litres per day, and assume you live to 80 years old, that is 235,468,800 litres of blood."/>
+
+    <TextView
+        android:id="@+id/ff6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:textSize="15sp"
+        android:layout_below="@+id/ff5"
+        android:text="\n\nFun Fact 6:\nTo be honest, this is not so fun of a fact. The longest human neck can extend to 19.7 cm, this record belong to women in the Padaung/Kayan tribe in the highlands of northwestern Thailand and southeastern Myanmar. As a cultural practice, the tribe uses heavy brass rings on the necks of female from the age 5 to 9 and add more as they age. The rings increases the length of neck by pressing down on the ribcage and lower jaw. Over time the weight of the rings distorts the musculature of the shoulders, bends the collarbone and ribcage, and compresses the lower jaw. This creates the impression that the neck has been lengthened. Although through X-ray, we can see that the vertebrae that form the cervical spine are actually unchanged. And this practice actually causes respiratory and cardiovascular problems, and distorted dental development, causing a significant reduction of life expectancy of the women of the tribe."/>
+
+    <Button
+        android:id="@+id/buttonNext"
+        android:layout_width="70dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/ff6"
+        android:layout_centerInParent="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/button_style1"
+        android:text="@string/buttonNext"
+        android:textColor="#FFFFFF"
+        android:textSize="12sp" />
+
+    <Button
+        android:id="@+id/buttonBack"
+        android:layout_width="70dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/ff6"
+        android:layout_alignStart="@+id/buttonNext"
+        android:layout_marginStart="-130dp"
+        android:layout_marginTop="26dp"
+        android:background="@drawable/button_style1"
+        android:text="@string/buttonBack"
+        android:textColor="#FFFFFF"
+        android:textSize="12sp" />
+
+    <Button
+        android:id="@+id/buttonHome"
+        android:layout_width="70dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/ff6"
+        android:layout_alignEnd="@+id/buttonNext"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="130dp"
+        android:layout_marginTop="31dp"
+        android:layout_marginEnd="35dp"
+        android:background="@drawable/button_style1"
+        android:text="@string/buttonHome"
+        android:textColor="#FFFFFF"
+        android:textSize="12sp" />
+
+</RelativeLayout>

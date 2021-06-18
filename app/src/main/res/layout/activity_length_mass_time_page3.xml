@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".length_mass_time_page3">
+
+    <TextView
+        android:id="@+id/length_mass_time_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#123456"
+        android:gravity="center"
+        android:text="@string/length_mass_time_title"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/measuring_time_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/length_mass_time_title"
+        android:text="@string/nmeasuring_time_title"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/measuring_time_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/measuring_time_title"
+        android:gravity="center"
+        android:text="@string/measuring_time_content"
+        android:textColor="#000000" />
+
+    <ImageView
+        android:id="@+id/image_stopwatch"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_below="@+id/measuring_time_content"
+        android:layout_centerInParent="true"
+        android:background="@drawable/stopwatch" />
+
+    <TextView
+        android:id="@+id/text_stopwatch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/image_stopwatch"
+        android:gravity="center"
+        android:text="@string/text_stopwatch"
+        android:textColor="#000000" />
+
+    <Button
+        android:id="@+id/buttonReturn"
+        android:layout_width="70dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/text_stopwatch"
+        android:layout_centerInParent="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/button_style1"
+        android:text="@string/buttonReturn"
+        android:textColor="#FFFFFF"
+        android:textSize="12sp" />
+
+    <Button
+        android:id="@+id/buttonBack"
+        android:layout_width="70dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/text_stopwatch"
+        android:layout_alignStart="@+id/buttonReturn"
+        android:layout_marginStart="-130dp"
+        android:layout_marginTop="26dp"
+        android:background="@drawable/button_style1"
+        android:text="@string/buttonBack"
+        android:textColor="#FFFFFF"
+        android:textSize="12sp" />
+
+    <Button
+        android:id="@+id/buttonHome"
+        android:layout_width="70dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/text_stopwatch"
+        android:layout_alignEnd="@+id/buttonReturn"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="130dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="38dp"
+        android:background="@drawable/button_style1"
+        android:text="@string/buttonHome"
+        android:textColor="#FFFFFF"
+        android:textSize="12sp" />
+
+</RelativeLayout>

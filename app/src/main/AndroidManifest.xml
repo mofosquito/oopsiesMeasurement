@@ -2,26 +2,34 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.ucts.oopsiesmeasurement">
 
-    <uses-permission android:name="android.permission.INTERNET"/>
-    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
     <application
-        android:networkSecurityConfig="@xml/network_security_config"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
+        android:networkSecurityConfig="@xml/network_security_config"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.OopsiesMeasurement">
-        <activity android:name=".source_code"></activity>
+        <activity android:name=".fun_facts_page3"></activity>
+        <activity android:name=".fun_facts_page2" />
+        <activity android:name=".length_mass_time_page3" />
+        <activity android:name=".length_mass_time_page2" />
+        <activity android:name=".estimating_quantities_page2" />
+        <activity android:name=".heat_temp_page2" />
+        <activity android:name=".phenomena_illusions_page3" />
+        <activity android:name=".phenomena_illusions_page2" />
+        <activity android:name=".source_code" />
         <activity android:name=".feedback" />
         <activity android:name=".about_us" />
-        <activity android:name=".heat_temp" />
-        <activity android:name=".estimating_quantities" />
-        <activity android:name=".length_mass_time" />
-        <activity android:name=".phenomena_illusions" />
+        <activity android:name=".heat_temp_page1" />
+        <activity android:name=".estimating_quantities_page1" />
+        <activity android:name=".length_mass_time_page1" />
+        <activity android:name=".phenomena_illusions_page1" />
         <activity android:name=".Settings" />
-        <activity android:name=".Fun_Facts" />
+        <activity android:name=".fun_facts_page1" />
         <activity android:name=".Educational" />
         <activity android:name=".MainActivity">
             <intent-filter>

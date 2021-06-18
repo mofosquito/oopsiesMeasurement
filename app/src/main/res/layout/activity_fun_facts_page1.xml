@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".fun_facts_page1">
+
+    <TextView
+        android:id="@+id/fun_fact_title"
+        android:textStyle="italic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#123456"
+        android:gravity="center"
+        android:text="Fun Facts"
+        android:textColor="@color/white"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/ff1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:textSize="15sp"
+        android:layout_below="@+id/fun_fact_title"
+        android:text="\n\nFun Fact 1:\nHorsepower is a well-known unit of measurement, but do you know that there is another unit of measurement called donkey power? It is defined as 250 watts, which is about a third of a horsepower."/>
+
+    <TextView
+        android:id="@+id/ff2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:textSize="15sp"
+        android:layout_below="@+id/ff1"
+        android:text="\n\nFun Fact 2:\nYou probably know that there is a small amount of radiation in a banana due to the presence of a natural isotope of potassium. There is actually an informal term for the amount which is called banana equivalent dose. It was intended to be a general educational example to compare a dose of radioactivity to the dose one is exposed to by eating an average-sized banana. To be more technical, one BED is equivalent to 0.1 microsieverts."/>
+
+    <TextView
+        android:id="@+id/ff3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:textSize="15sp"
+        android:layout_below="@+id/ff2"
+        android:text="\n\nFun fact 3:\nOne of the most ridiculous name of a unit of measurement is pirate-ninja. A pirate-ninja is defined as a kilowatt-hour per Martian day or sol. It is equivalent to approximately 40.55 watts."/>
+
+    <TextView
+        android:id="@+id/ff4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:textSize="15sp"
+        android:layout_below="@+id/ff3"
+        android:text="\n\nFun Fact 4:\nInspired by Mickey Mouse created by Walt Disney, one Mickey is the smallest resolvable unit of distance by a given computer mouse pointing device. Mouse motion is reported in horizontal and vertical mickeys. Device sensitivity is usually specified in mickeys per inch. Typical resolution is 16 mickeys per millimeter. Available resolutions are up to 600 mickeys per millimeter."/>
+
+    <Button
+        android:id="@+id/buttonNext"
+        android:layout_width="70dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/ff4"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/button_style1"
+        android:text="@string/buttonNext"
+        android:textColor="#FFFFFF"
+        android:textSize="12sp" />
+
+    <Button
+        android:id="@+id/buttonBack"
+        android:layout_width="70dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/ff4"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="21dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/button_style1"
+        android:text="@string/buttonBack"
+        android:textColor="#FFFFFF"
+        android:textSize="12sp" />
+
+</RelativeLayout>

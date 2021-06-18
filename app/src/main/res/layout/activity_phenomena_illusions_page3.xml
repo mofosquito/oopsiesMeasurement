@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".phenomena_illusions_page1">
+
+    <TextView
+        android:id="@+id/phenomena_illusions_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#123456"
+        android:gravity="center"
+        android:text="@string/phenomena_illusions_title"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/phenomena_illusions_secondaryTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/phenomena_illusions_title"
+        android:text="@string/illusion_secondary_title"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/text_definition"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/phenomena_illusions_secondaryTitle"
+        android:text="@string/illusion_definition"
+        android:textColor="#000000" />
+
+    <ImageView
+        android:id="@+id/image_optical_illusion"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_below="@+id/text_definition"
+        android:layout_centerInParent="true"
+        android:background="@drawable/optical_illusion" />
+
+    <TextView
+        android:id="@+id/text_optical_illusion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/image_optical_illusion"
+        android:gravity="center"
+        android:text="@string/optical_illusion_explanation"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/text_explanation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text_optical_illusion"
+        android:gravity="center"
+        android:text="@string/illusion_explanation"
+        android:textColor="#000000" />
+
+    <Button
+        android:id="@+id/buttonReturn"
+        android:layout_width="70dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/text_explanation"
+        android:layout_centerInParent="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/button_style1"
+        android:text="@string/buttonReturn"
+        android:textColor="#FFFFFF"
+        android:textSize="12sp" />
+
+    <Button
+        android:id="@+id/buttonBack"
+        android:layout_width="70dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/text_explanation"
+        android:layout_alignStart="@+id/buttonReturn"
+        android:layout_marginStart="-130dp"
+        android:layout_marginTop="26dp"
+        android:background="@drawable/button_style1"
+        android:text="@string/buttonBack"
+        android:textColor="#FFFFFF"
+        android:textSize="12sp" />
+
+    <Button
+        android:id="@+id/buttonHome"
+        android:layout_width="70dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/text_explanation"
+        android:layout_alignEnd="@+id/buttonReturn"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="130dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="38dp"
+        android:background="@drawable/button_style1"
+        android:text="@string/buttonHome"
+        android:textColor="#FFFFFF"
+        android:textSize="12sp" />
+
+</RelativeLayout>

@@ -8,223 +8,6 @@
     <string name="estimating_quantities_button">Estimating Quantities</string>
     <string name="heat_and_temperature_button">Heat and Temperature</string>
     <string name="phenomena_illusions_title">Phenomena and Illusions</string>
-    <string name="phenomena_illusions_content">
-        Part 1: Introduction\n\n
-        Physics is the scientific study of how matter and energy interact. These interactions can
-        produce the colours of the rainbow in a shower or the roar of the wind in a hurricane. At a
-        greater distance, the interactions of matter and energy in the Sun produce light and heat,
-        while inside our eyes light energy is converted into electrical energy, which passes to our
-        brain and allows us to see.\n
-
-        Every event in the universe, from your next breath to a star exploding, is an interaction of
-        matter and energy, so physics is really a part of all the other scientific
-        subjects rather than a separate one.\n
-
-        All the information we gather with our senses, such as the presence of light, and events,
-        such as the formation of a rainbow, are called phenomena. So,
-        physics can also be described as the science of investigating phenomena.\n\n
-
-        Part 2: Launching a Rocket\n\n
-        Light from the engines of a rocket can be seen immediately by the distance spectators as the
-        rocket begins to rise from the launch pad. The speed increases every second as it went up
-        high into the sky. The rocket is divided into parts called stages. Every stage has a
-        fuel tank and rocket engines. When fuel in a stage is used up, the rocked will then detach
-        from the others, hence enables the next stage to use its rocket engines and fuel, to propel
-        the rocket further more into the sky. After all stages are completed, only one small stage
-        is left, which is where the cockpit is located. Thus, it is left orbiting around the Earth
-        in space or set off across the Solar System.\n\n
-
-        Part 3: Illusions\n\n
-        Occasionally what we detect with our senses fools us into thinking we are seeing something
-        else. When this happens, we are usually fooled by an optical illusion.\n
-        All our senses can be fooled into seeming to detect something that is not really present.
-        This means that, instead of relying on you senses, we need to make more accurate observations
-        of phenomena in science. We do this by taking measurements.\n\n
-
-        Part 4: Q and A\n\n
-        1. Why was the light from the rocket engine is seen first before the sound of blast?\n
-        Answer: Because light is faster than sound.\n\n
-        2. Why are the stages fall back to Earth when they are detached from the rocket?\n
-        Answer: Because gravity pulls the stages of the rocket from the sky as they have not
-        escaped the atmosphere and gravitational pull.\n\n
-        3. Why did the stages burn up in the atmosphere?\n
-        Answer: It is due to the high level of O2. The stages are slowly burn to ashes as its increase
-        decent onto the ground.
-    </string>
-    <string name="length_mass_time_title">Length, Mass and Time</string>
-    <string name="length_mass_time_content">
-        Part 1: Introduction\n\n
-        Three thing that are measured in many investigations are length, mass, and time. Any measurement
-        is made in units. For example, a common unit of length is the centimetre. There is an
-        international system of units that is used by scientist throughout the world. This is known
-        as the SI units.\n\n
-
-        Part 2: Measuring Length\n\n
-        The standard SI unit of length is metre. Its symbol is m, and as with all symbols for SI units,
-        no full stop is placed after it. Metre is divided into smaller units for measuring all small
-        lengths or distances, and large numbers of metres are made into bigger units to measure long
-        lengths or distances.\n
-        For example, 1 kilometre is 1000 m; 1 centimetre is 0.01 m; 1 millimetre is 0.001 m and so
-        on.\n\n
-
-        Part 2: Measuring Mass\n\n
-        The standard SI unit of mass is kilogram with the symbol kg. The other units of mass used in
-        investigations are megatonne, tonne, gram, milligram and so on. For example, 1 megatonne
-        equals to 1,000,000,000 kg; 1 tonne equals to 1000 kg; 1 gram equals to 0.001 kg, and
-        1 milligram equals to 0.000001 kg.\n\n
-
-        Part 3: Measuring Time\n\n
-        The standard SI unit of time is second with the symbol s. Other units includes day, hour, minute,
-        second, millisecond, and more. For example, 1 day is 86,400 seconds, or 1,400 minutes, or 24
-        hours; 1 hour is 3,600 seconds or 60 minutes; 1 millisecond is 0.001 second and so on.
-    </string>
-    <string name="estimating_quantities_title">Estimating Quantities</string>
-    <string name="estimating_quantities_content">
-        Part 1: Introduction\n\n
-        At the beginning of an investigation, it may be useful to estimate the quantities that are
-        going to be used or the time that is going to be taken for certain observations. At this
-        stage of the investigation, accuracy is not essential just yet.\n\n
-
-        Part 2: Accuracy of Measurements\n\n
-        Your accuracy when making a measurement depends on the measuring instrument, as of how well it has
-        been made and calibrated compared with the standard, and how well the scale on the instrument
-        has been constructed. A stopwatch that only measures time by seconds cannot be used to time
-        events to a tenth of a second.\n\n
-        Your accuracy also depends on how well you use the measuring instrument. Care in setting up
-        the device is needed. For example, you must place a ruler accurately when measuring length,
-        reset a stopwatch before repeating a timing and make sure that a balance is set at zero before
-        a mass is put on it. If a balance is used with a scale that is read by looking at the position
-        of a pointer, your eye should be placed directly in front of the pointer.\n\n
-        More examples for the accuracy of measurements are eyes - approximation, very inaccurate,
-        improve by experience, although still inaccurate, body limb - approximation, inaccurate as
-        there are too many variables, ruler - accurate, although there are limits to the sizes of the
-        ruler, therefore there are different length of rulers, and measuring tape - accurate, can measure
-        length longer than ruler.
-    </string>
-    <string name="heat_temp_title">Heat and Temperature</string>
-    <string name="heat_temp_content">
-        Part 1: Introduction\n\n
-        The hotness or coldness of a substance is measured by taking its temperature. The temperature
-        of a substance is measured on a scale that has two fixed points. The most widely used temperature
-        scale is the Celsius scale. Its two fixed points are 0 degree Celsius which is the melting point of
-        ice or freezing point of water, and 100 degree Celsius which is the boiling point of water. In between
-        the two fixed points, the scale is divided into 100 units or degrees. The scale may be extended
-        below 0 degree Celsius and above 100 degree Celsius; laboratory thermometers are usually has
-        a scale reading from -10 degree Celsius to 110 degree Celsius.\n\n
-
-        A thermometer compares the temperature of the substance in which the bulb is immersed with
-        the freezing point and boiling point of water. It compares the hotness or coldness of a substance.
-        \n\n
-
-        The lowest possible temperature, known as absolute zero, is -273 degree Celsius. Temperatures
-        can go as high as millions of degrees Celsius.\n\n
-
-        Part 2: Liquids in thermometers\n\n
-        Two liquids that are commonly used in thermometers are mercury and alcohol. Mercury has a
-        freezing point of -39 degree Celsius and a boiling point of 360 degree Celsius while alcohol
-        has a freezing point of -112 degree Celsius and a boiling point of 78 degree Celsius.\n\n
-
-        If the bulb of the thermometer is placed in a hot substance, the liquid inside expands and
-        spreads up inside the thermometer tube. The level it reaches depends on the hotness of the
-        substance, and hte temperature can be read from the scale. If the bulb is then placed in a
-        cold substance, the liquid inside contracts back down the tube. The level at which it settles
-        depends on the coldness, and again the temperature is read from the scale.
-    </string>
-    <string name="fun_facts_title">Fun facts</string>
-    <string name="fun_facts_content">
-        Fun fact 1:\n
-        Horsepower is a well-known unit of measurement, but do you know that there is another
-        unit of measurement called donkey power? It is defined as 250 watts, which is about a third
-        of a horsepower.\n\n
-
-        Fun fact 2:\n
-        You probably know that there is a small amount of radiation in a banana due to the presence
-        of a natural isotope of potassium. There is actually an informal term for the amount which
-        is called banana equivalent dose. It was intended to be a general educational example
-        to compare a dose of radioactivity to the dose one is exposed to by eating an average-sized
-        banana. To be slightly technical, one BED is equivalent to 0.1 microsieverts.\n\n
-
-        Fun fact 3:\n
-        A British YouTuber Tom Scott defines the term onosecond, in one of his video titled:
-        The Worst Typo I Ever Made, as the second after one makes a terrible mistake, where
-        everything you can do is to say: Oh no.\n\n
-
-        Fun fact 4:\n
-        One of the most ridiculous name of a unit of measurement is pirate-ninja. A
-        pirate-ninja is defined as a kilowatt-hour per Martian day or sol. It is equivalent to
-        approximately 40.55 watts.\n\n
-
-        Fun fact 5:\n
-        Inspired by Mickey Mouse created by Walt Disney, one Mickey is the smallest resolvable
-        unit of distance by a given computer mouse pointing device. Mouse motion is reported in horizontal
-        and vertical mickeys. Device sensitivity is usually specified in mickeys per inch. Typical
-        resolution is 16 mickeys per millimeter. Available resolutions are up to 600 mickeys per
-        millimeter.\n\n
-
-        Fun fact 6:\n
-        A fortnight is defined as 14 days, but do you know that fortnight is part of a system
-        called the FFF system? The full name of FFF system is furlong-firkin-fortnight system. It is
-        based on unusual or impractical measurements. Furlong is the unit of length - 1 furlong = 201.168m,
-        firkin is the unit of mass - 1 firkin = 40.8233133kg, and fortnight is the unit of time
-        - 1 fortnight = 14 days. Despite being old and impractical, Myanmar still uses furlong in
-        conjunction with miles to indicate distances on highway signs. Also, the terms was originated
-        in England in the late 13th or early 14th century, therefore during the 16th century, before
-        the SI units and the imperial units in the 18th century, furlong is used on horse racing in England
-        and they are still using it today.\n\n
-
-        Fun Fact 7:\n
-        Heart beat has an average of 80 beats per minute, that is 4,800 times per hour and 115,200
-        times per day. Assume you live to be 80 years old, your heart would have beaten approximately
-        3,363,840,000 times. Every beat pumps around 70 ml of blood, that means 5.6 litres per minute,
-        336 litres per hour, 8064 litres per day, and assume you live to 80 years old, that is
-        235,468,800 litres of blood.\n\n
-
-        Fun Fact 8:\n
-        This one may be a little not safe for work. But to correctly measure a penis,
-        urologists recommends a measurement method called Bone Pressed Flaccid Length.
-        Basically, the standard by which you should use for comparison against other bone-pressed size
-        studies is called Bone-Pressed Measurement in which you push a ruler or measuring instrument
-        into the fat or skin all the way to the pubic bone. On the other hand, Non-Bone-Pressed
-        Measurement is the visible length of the penis which is NOT good for statistical comparison
-        as it fluctuates depending on the body fat level and potentially other factors. An example
-        for this would be a person with the body fat of 20% could have a possible NBP gain of 1.397 cm.\n\n
-
-        Fun Fact 9:\n
-        To be honest, this is not so fun of a fact. The longest human neck can extend to 19.7 cm,
-        this record belong to women in the Padaung/Kayan tribe in the highlands of northwestern Thailand
-        and southeastern Myanmar. As a cultural practice, the tribe uses heavy brass rings on the necks
-        of female from the age 5 to 9 and add more as they age. The rings increases the length of neck by
-        pressing down on the ribcage and lower jaw. Over time the weight of the rings distorts the
-        musculature of the shoulders, bends the collarbone and ribcage, and compresses the lower jaw.
-        This creates the impression that the neck has been lengthened. Although through X-ray,
-        we can see that the vertebrae that form the cervical spine are actually unchanged. And this
-        practice actually causes respiratory and cardiovascular problems, and distorted dental development,
-        causing a significant reduction of life expectancy of the women of the tribe.\n\n
-
-        Fun Fact 10:\n
-        According to Dr. Maggie Aderin-Pocock who ran computer simulations on the distance between
-        the Moon and Earth, the Moon was much closer to the Earth, which was only 22,500 km away comparing
-        to today which Apogee is more than 400,000 km away. As of right now, the Moon
-        continues to spin away from the Earth at the rate pf 3.78 km per year. Without the Moon, the
-        Earth could slow down enough to become unstable. However, that would take billions of years
-        and may never even happen at all.\n\n
-
-        Fun Fact 11:\n
-        A single 200 ml glass of dairy milk uses up around 120 litres of water. The water is used
-        mostly for cows and to grow their food. Meanwhile, almond milk takes nearly 70 litres of water
-        per glass, and most of it is used to grow almond trees. Soy and oat milk only take 5 - 10
-        litres of water per glass.\n\n
-
-        Fun Fact 12:\n
-        Human shed about 600,000 particles of skin every hour, which works out to be about 0.68
-        kg of skin per year,or a total of 54.4 kg assuming you reach the age of 80.\n\n
-
-        Fun Fact 13:\n
-        If you have the mean to do it, the longest possible uninterrupted walk without boat or
-        air journey on Earth is 22,387 km long from Cape Town, South Africa to Magadan, Russia and vice
-        versa. According to Google Map, it takes 4,492 hours or 187 days of non-stop walking to get
-        there.\n\n
-    </string>
     <string name="about_us_appTitle">OOPsies\nMeasurement\nProject</string>
     <string name="about_us_textView0">A group of student\'s attempt on creating an app</string>
     <string name="about_us_textView2">Our Team</string>
@@ -235,4 +18,46 @@
     <string name="feedback">Feedback</string>
     <string name="source_code">Source Code</string>
     <string name="textView1">We would like to hear your valuable suggestions. Please fill in the feedback form in the settings page.</string>
+    <string name="phenomenon_illusions_intro">\nWhat is phenomenon?</string>
+    <string name="phenomenon_illusions_definition">\nDefinition:\nA phenomenon (plural: phenomena) is an observable fact or event.\n\n</string>
+    <string name="text_aurora">This is a picture of an aurora. An aurora is a natural light display in the Earth\'s sky, predominantly in high-latitude regions like the Arctic and Antarctic. Since they are an observable occurrence and event, therefore it is an phenomenon.\n\n</string>
+    <string name="text_explanation">Every event in the universe, from your next breath to a star exploding, is an interaction of matter and energy, so physics is really a part of all the other scientific subjects rather than a separate one.\n\n</string>
+    <string name="text_star_explode">This is an animation of a star exploding.</string>
+    <string name="buttonNext">Next</string>
+    <string name="buttonBack">Back</string>
+    <string name="buttonHome">Home</string>
+    <string name="buttonReturn">Return</string>
+    <string name="phenomena_illusions_secondary_title">Launching a Rocket</string>
+    <string name="text_rocket_launch">SpaceX rocket launch\n\n</string>
+    <string name="rocket_explanation">Light from the engines of a rocket can be seen immediately by the distance spectators as the rocket begins to rise from the launch pad. The speed increases every second as it went up high into the sky. The rocket is divided into parts called stages. Every stage has a fuel tank and rocket engines. When fuel in a stage is used up, the rocked will then detach from the others, hence enables the next stage to use its rocket engines and fuel, to propel the rocket further more into the sky. After all stages are completed, only one small stage is left, which is where the cockpit is located. Thus, it is left orbiting around the Earth in space or set off across the Solar System.\n\n</string>
+    <string name="illusion_secondary_title">What are illusions?</string>
+    <string name="illusion_definition">Definition: An illusion is a distortion of senses, which can reveal how the human brain normally organizes and interprets sensory stimulation.\n\n</string>
+    <string name="optical_illusion_explanation">This is a still image depicting an optical illusion.\n\n</string>
+    <string name="illusion_explanation">Illusion can occur with any of the human senses, but optical illusions are the best-known and understood because visual often dominates the other senses.\n\nThere are auditory illusion such as the Shepard tone, tactile illusion such as phantom limb, temporal illusion which means the distortion in the perception of time etc.</string>
+    <string name="heat_temp_title">Heat and Temperature</string>
+    <string name="heat_temp_secondary_title">\nWhat is temperature?</string>
+    <string name="heat_temp_definition">\nDefinition: Temperature is a physical quantity that expresses hot and cold/ It is the manifestation of thermal energy, presented in all matter, which is the source of the occurrence of heat, a flow of energy, when a body is in contact with another that is colder or hotter.\n\n</string>
+    <string name="image_thermometer">A thermometer.</string>
+    <string name="text_temperature_explanation">\nThe temperature of a substance is measured on a scale that has two fixed points. The most widely used temperature scale is the Celsius scale. Its two fixed points are 0 degree Celsius which is the melting point of ice or freezing point of water, and 100 degree Celsius which is the boiling point of water. A thermometer compares the temperature of the substance in which the bulb is immersed with the freezing point and boiling point of water. It compares the hotness or coldness of a substance.\n\nThe lowest possible temperature, known as absolute zero, is -273 degree Celsius. Temperatures can go as high as millions of degrees Celsius.\n\n</string>
+    <string name="estimating_quantities_title">Estimating Quantities</string>
+    <string name="estimating_quantities_secondary_title">\nWhy do we do estimation?\n</string>
+    <string name="text_estimation">Can you estimate the total number of candies inside this jar?</string>
+    <string name="text_estimation_explanation">\n\nAt the beginning of an investigation, it may be useful to estimate the quantities that are going to be used or the time that is going to be taken for certain observations. At this stage of the investigation, accuracy is not essential just yet.\n\n</string>
+    <string name="length_mass_time_title">Length, Mass, and Time</string>
+    <string name="length_mass_time_secondary_title">\nIntroduction</string>
+    <string name="length_mass_time_intro">There are three things being measured in many investigations are length, mass, and time. Any measurement is made in units. For example, a common unit of length is the centimetre. There is an international system of units that is used by scientist throughout the world. This is known as the SI units.\n\n</string>
+    <string name="si_units_explanation">Visual representation of the SI units.</string>
+    <string name="measuring_length_title">\n\nMeasuring Length</string>
+    <string name="measuring_length_content">\nThe standard SI unit of length is metre. Its symbol is m, and as with all symbols for SI units, no full stop is placed after it. Metre is divided into smaller units for measuring all small lengths or distances, and large numbers of metres are made into bigger units to measure long lengths or distances.\n\nFor example, 1 kilometre is 1000 m; 1 centimetre is 0.01 m; 1 millimetre is 0.001 m and so on.\n\n</string>
+    <string name="accuracy_title">\nAccuracy of Measurements</string>
+    <string name="accuracy_intro">\n\nAccuracy depends on the measuring instrument as of how well it has been constructed. A stopwatch that only measures time by seconds cannot be used to time events to a tenth of a second.\n\n</string>
+    <string name="text_tools">Some examples of measuring instruments.</string>
+    <string name="tools_explanation">\n\nYour accuracy also depends on how well you use the measuring instrument. Care in setting up the device is needed. For example, you must place a ruler accurately when measuring length, reset a stopwatch before repeating a timing and make sure that a balance is set at zero before a mass is put on it. If a balance is used with a scale that is read by looking at the position of a pointer, your eye should be placed directly in front of the pointer.\n\n</string>
+    <string name="liquid_thermometer">\nThe liquids in thermometers\n</string>
+    <string name="text_alcohol_mercury">Two liquids are commonly found in a thermometer. They are alcohol and mercury.\n\n</string>
+    <string name="liquid_explanation">Mercury has a freezing point of -39 degree Celsius and a boiling point of 360 degree Celsius while alcohol has a freezing point of -112 degree Celsius and a boiling point of 78 degree Celsius.\n\nIf the bulb of the thermometer is placed in a hot substance, the liquid inside expands and spreads up inside the thermometer tube. The level it reaches depends on the hotness of the substance, and the temperature can be read from the scale. If the bulb is then placed in acold substance, the liquid inside contracts back down the tube. The level at which it settles depends on the coldness, and again the temperature is read from the scale.</string>
+    <string name="nmeasuring_time_title">\nMeasuring Time</string>
+    <string name="measuring_time_content">\nThe standard SI unit of time is second with the symbol s. Other units includes day, hour, minute, second, millisecond, and more. For example, 1 day is 86,400 seconds, or 1,400 minutes, or 24 hours; 1 hour is 3,600 seconds or 60 minutes; 1 millisecond is 0.001 second and so on.\n</string>
+    <string name="text_stopwatch">Stopwatch for measuring time</string>
+
 </resources>

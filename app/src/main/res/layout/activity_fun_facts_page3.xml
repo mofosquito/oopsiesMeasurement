@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".fun_facts_page1">
+
+    <TextView
+        android:id="@+id/fun_fact_title"
+        android:textStyle="italic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#123456"
+        android:gravity="center"
+        android:text="Fun Facts"
+        android:textColor="@color/white"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/ff7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:textSize="15sp"
+        android:layout_below="@+id/fun_fact_title"
+        android:text="\n\nFun Fact 7:\nA single 200 ml glass of dairy milk uses up around 120 litres of water. The water is used mostly for cows and to grow their food. Meanwhile, almond milk takes nearly 70 litres of water per glass, and most of it is used to grow almond trees. Soy and oat milk only take 5 - 10 litres of water per glass."/>
+
+    <TextView
+        android:id="@+id/ff8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:textSize="15sp"
+        android:layout_below="@+id/ff7"
+        android:text="\n\nFun Fact 8:\nHuman shed about 600,000 particles of skin every hour, which works out to be about 0.68 kg of skin per year,or a total of 54.4 kg assuming you reach the age of 80."/>
+
+    <TextView
+        android:id="@+id/ff9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:textSize="15sp"
+        android:layout_below="@+id/ff8"
+        android:text="\n\nFun fact 9: If you have the mean to do it, the longest possible uninterrupted walk without boat or air journey on Earth is 22,387 km long from Cape Town, South Africa to Magadan, Russia and vice versa. According to Google Map, it takes 4,492 hours or 187 days of non-stop walking to get there."/>
+
+    <Button
+        android:id="@+id/buttonHome"
+        android:layout_width="70dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/ff9"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/button_style1"
+        android:text="@string/buttonHome"
+        android:textColor="#FFFFFF"
+        android:textSize="12sp" />
+
+    <Button
+        android:id="@+id/buttonBack"
+        android:layout_width="70dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/ff9"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="21dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/button_style1"
+        android:text="@string/buttonBack"
+        android:textColor="#FFFFFF"
+        android:textSize="12sp" />
+
+</RelativeLayout>
