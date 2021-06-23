@@ -6,20 +6,17 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
-public class length_mass_time_page3 extends AppCompatActivity {
+public class length_mass_time_page3 extends polymorph_test_java {
 
     private android.widget.Button buttonReturn;
     private android.widget.Button buttonBack;
-    private android.widget.Button buttonHome;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_length_mass_time_page3);
 
         buttonReturn = (android.widget.Button) findViewById(R.id.buttonReturn);
         buttonBack = (android.widget.Button) findViewById(R.id.buttonBack);
-        buttonHome = (android.widget.Button) findViewById(R.id.buttonHome);
 
         buttonReturn.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -36,13 +33,15 @@ public class length_mass_time_page3 extends AppCompatActivity {
                 startActivity(int2);
             }
         });
+    }
 
-        buttonHome.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent int3 = new Intent(length_mass_time_page3.this, MainActivity.class);
-                startActivity(int3);
-            }
-        });
+    @Override
+    public int loadLayoutView() {
+        return R.layout.activity_length_mass_time_page3;
+    }
+
+    @Override
+    public int openHomePage() {
+        return R.id.buttonHome;
     }
 }
